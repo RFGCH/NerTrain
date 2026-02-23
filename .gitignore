@@ -1,0 +1,63 @@
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+gliner-env/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# HuggingFace / training outputs
+# =========================
+models/
+outputs/
+runs/
+checkpoints/
+checkpoint-*/
+trainer_state.json
+
+# model weights
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+
+# =========================
+# Datasets
+# =========================
+CrossNER/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Logs
+# =========================
+*.log
+wandb/
+
+# =========================
+# Secrets
+# =========================
+.env
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store

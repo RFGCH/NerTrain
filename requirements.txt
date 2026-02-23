@@ -1,0 +1,5 @@
+gliner==0.2.24
+transformers==4.57.3
+accelerate>=1.1.0
+ipykernel
+datasets
